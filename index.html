@@ -1,86 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <title>Tropicália</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festa Junina da Cidade</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <header class=" p-5">
-
-        <nav class="container d-flex justify-content-between align-items-center">
-            <img src="img/name.png" alt="tropicalia." class="nav-img " loading="lazy">
-            <ul class="nav mt-5">
-                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
-                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
-                <li class="nav-item"><a class="nav-link" href="#saibamais">Saiba mais</a></li>
-            
-            </ul> 
-            <div> 
+    <header>
+        <h1>Bem-vindo à Festa Junina da Nossa Cidade!</h1>
+        <p>Uma tradição de alegria, música e comidas típicas!</p>
     </header>
 
+    <section id="informacoes">
+        <h2>Sobre a Festa Junina</h2>
+        <p>A Festa Junina é uma das celebrações mais aguardadas do ano em nossa cidade. Durante o mês de junho, a cidade se enche de cores, luzes, e muito forró. A festa é uma tradição que envolve toda a comunidade e é perfeita para se divertir com a família e amigos!</p>
+    </section>
 
-    <main class="container my-5">
+    <section id="atividades">
+        <h2>Atividades Principais</h2>
+        <ul>
+            <li>Quadrilha tradicional</li>
+            <li>Comidas típicas: canjica, pamonha, milho verde, e muito mais!</li>
+            <li>Brincadeiras: pescaria, correio elegante e bingo!</li>
+            <li>Shows de música ao vivo com bandas de forró e sertanejo!</li>
+        </ul>
+    </section>
 
-        <section id="inicio" class="my-5">
-            <div class="inicio-fundo d-flex justify-content-between align-items-center">
-                <div class="esquerda-conteudo">
-                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
-                    <img src="img/coqueiro.png" alt="Logotipo secundário da Tropicália" class="mb-3" width="563"
-                        height="278" loading="lazy">
-                    <a href="#tropicalia"
-                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
-                        conhecer!</a>
-                </div>
-<img src="coqueiro.png" alt="O nome Tropicália em letra rosa escuro e com um coqueiro rosa claro">
-            </div>
-        </section>
+    <section id="galeria">
+        <h2>Galeria de Imagens</h2>
+        
+        <figure>
+            <img src="quadrilha.jpg" alt="Grupo de pessoas dançando quadrilha, vestidas com roupas típicas de festa junina. Eles estão dançando ao redor de uma fogueira.">
+            <figcaption>Dança de Quadrilha</figcaption>
+        </figure>
 
-        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia">
-            <div class="container d-flex align-items-center ">
-                  <div class="col-5">
-                    <h2>Como foi o movimento       Tropicália?</h2>
-                    <p class="p-2">O movimento Tropicalista, surgido no Brasil na década de 1960, foi uma proposta inovadora que uniu música, artes visuais e teatro. Liderado por artitas como Caetano Veloso, o movimento buscou a mistura de ritmos brasileiros com influências internacionais como o rocke psicodélica. Estilo irreverente e experimental, refletiu a uma crítica social e politíca a época, sendo funamental para a renovação da cultura brasileira durante a ditaura militar.</p>
-                </div>
-            </div>
-        </section>
+        <figure>
+            <img src="comidas_típicas.jpg" alt="Mesa com pratos típicos da festa junina: canjica, milho verde, bolos e pamonha. Ao fundo, algumas bandeirinhas coloridas decoram o espaço.">
+            <figcaption>Comidas Típicas</figcaption>
+        </figure>
 
-        <section id="galeria">
-            <h2 class="text-center pt-5">Galeria</h2>
-            <div class="container p-3 mt-3 fundo-galeria ">
+        <figure>
+            <img src="show_musica.jpg" alt="Banda tocando ao vivo, com o vocalista cantando e o público ao fundo, todos dançando ao ritmo do forró.">
+            <figcaption>Show de Forró</figcaption>
+        </figure>
+    </section>
 
-                <div class="row justify-content-md-center">
-                    <div class="col-md-4">
-                        <img src="img/homem.png"
-                            class="img-fluid rounded-5" loading="lazy">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/grupo.png" class="img-fluid rounded-5"
-                            loading="lazy">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contato">
-            <div class="container p-5 d-flex justify-content-center">
-                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
-    <footer class="text-center p-3 fst-italic">
-        <p>Acesse minha rede social:</p>
-        <i class="bi bi-instagram"></i>
-        <p>@gi_greguoldo</p>
-        <p class="mt-3">Desenvolvido por Giovana Greguoldo, aluna do 3B Carlos Silva 2025.</p>
-    </footer>
-    <script src="script.js"></script>
-
+    <footer>
+        <p>&copy; 2025 Festa Junina da Cidade</p>
+    <section id="contato"> 
+        <div class="container p-5 d-flex justify-content-center"> 
+            <div class="col-md-8 col-lg-10 rounded-5 formulario"> 
+                <!-- Caixa do formulário com 60% de largura --> 
+                 <footer class="text-center p-3 fst-italic">
+                     <p>Acesse minha rede social:</p> <i class="bi bi-instagram"></i> 
+                     <p>@gi_greguoldo</p> 
+                     <p class="mt-3">Desenvolvido por Giovana Greguoldo, aluna do 3B Carlos Silva 2025.</p> 
+                    </footer> <script src="script.js"></script>
 </body>
-
+</html>
+    </footer>
+</body>
 </html>
